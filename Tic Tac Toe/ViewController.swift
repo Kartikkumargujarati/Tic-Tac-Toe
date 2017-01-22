@@ -9,7 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var  player = 1
+    var state = [0,0,0,0,0,0,0,0,0]
+    @IBOutlet weak var button1: UIButton!
+    @IBAction func buttom1(_ sender: AnyObject) {
+        var image = UIImage()
+        if(state[sender.tag] == 0){
+        state[sender.tag] = player
+        
+        if player == 1{
+            image = UIImage(named: "tic2.png")!
+            player = 2
+            
+        }else{
+            image = UIImage(named: "tic1.png")!
+            player = 1
+        }
+            }
+        sender.setImage(image, for: .normal)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

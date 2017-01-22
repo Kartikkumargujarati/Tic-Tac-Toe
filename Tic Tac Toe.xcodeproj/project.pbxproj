@@ -12,6 +12,9 @@
 		53032B071E0C7A2F00208CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53032B051E0C7A2F00208CBA /* Main.storyboard */; };
 		53032B091E0C7A2F00208CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53032B081E0C7A2F00208CBA /* Assets.xcassets */; };
 		53032B0C1E0C7A2F00208CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53032B0A1E0C7A2F00208CBA /* LaunchScreen.storyboard */; };
+		534573411E34422100E297D5 /* tic board.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5345733E1E34422100E297D5 /* tic board.gif */; };
+		534573421E34422100E297D5 /* tic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5345733F1E34422100E297D5 /* tic1.png */; };
+		534573431E34422100E297D5 /* tic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 534573401E34422100E297D5 /* tic2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		53032B081E0C7A2F00208CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53032B0B1E0C7A2F00208CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53032B0D1E0C7A2F00208CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5345733E1E34422100E297D5 /* tic board.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "tic board.gif"; sourceTree = "<group>"; };
+		5345733F1E34422100E297D5 /* tic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tic1.png; sourceTree = "<group>"; };
+		534573401E34422100E297D5 /* tic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tic2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				53032B011E0C7A2F00208CBA /* AppDelegate.swift */,
 				53032B031E0C7A2F00208CBA /* ViewController.swift */,
 				53032B051E0C7A2F00208CBA /* Main.storyboard */,
+				5345733E1E34422100E297D5 /* tic board.gif */,
+				5345733F1E34422100E297D5 /* tic1.png */,
+				534573401E34422100E297D5 /* tic2.png */,
 				53032B081E0C7A2F00208CBA /* Assets.xcassets */,
 				53032B0A1E0C7A2F00208CBA /* LaunchScreen.storyboard */,
 				53032B0D1E0C7A2F00208CBA /* Info.plist */,
@@ -124,8 +133,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				53032B0C1E0C7A2F00208CBA /* LaunchScreen.storyboard in Resources */,
+				534573421E34422100E297D5 /* tic1.png in Resources */,
+				534573411E34422100E297D5 /* tic board.gif in Resources */,
 				53032B091E0C7A2F00208CBA /* Assets.xcassets in Resources */,
 				53032B071E0C7A2F00208CBA /* Main.storyboard in Resources */,
+				534573431E34422100E297D5 /* tic2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				53032B121E0C7A2F00208CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
